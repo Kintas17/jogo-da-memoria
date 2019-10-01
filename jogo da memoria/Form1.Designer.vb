@@ -222,7 +222,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.DimGray
         Me.PictureBox1.BackgroundImage = Global.jogo_da_memoria.My.Resources.Resources.buc1
-        Me.PictureBox1.Image = Global.jogo_da_memoria.My.Resources.Resources.buc1
+        Me.PictureBox1.Image = Global.jogo_da_memoria.My.Resources.Resources.vazio
         Me.PictureBox1.InitialImage = Nothing
         Me.PictureBox1.Location = New System.Drawing.Point(42, 68)
         Me.PictureBox1.Name = "PictureBox1"
