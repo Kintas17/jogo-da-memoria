@@ -25,38 +25,38 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox15 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.P16 = New System.Windows.Forms.PictureBox()
+        Me.P14 = New System.Windows.Forms.PictureBox()
+        Me.P15 = New System.Windows.Forms.PictureBox()
+        Me.P13 = New System.Windows.Forms.PictureBox()
+        Me.P12 = New System.Windows.Forms.PictureBox()
+        Me.P10 = New System.Windows.Forms.PictureBox()
+        Me.P11 = New System.Windows.Forms.PictureBox()
+        Me.P9 = New System.Windows.Forms.PictureBox()
+        Me.P8 = New System.Windows.Forms.PictureBox()
+        Me.P6 = New System.Windows.Forms.PictureBox()
+        Me.P7 = New System.Windows.Forms.PictureBox()
+        Me.P5 = New System.Windows.Forms.PictureBox()
+        Me.P4 = New System.Windows.Forms.PictureBox()
+        Me.P2 = New System.Windows.Forms.PictureBox()
+        Me.P3 = New System.Windows.Forms.PictureBox()
+        Me.P1 = New System.Windows.Forms.PictureBox()
+        CType(Me.P16, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P14, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P15, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P13, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P12, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P11, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P9, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P8, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.P1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -79,156 +79,153 @@ Partial Class Form1
         Me.Button1.Text = "Novo Jogo"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'PictureBox13
+        'P16
         '
-        Me.PictureBox13.BackgroundImage = Global.jogo_da_memoria.My.Resources.Resources.vazio
-        Me.PictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.PictureBox13.Image = Global.jogo_da_memoria.My.Resources.Resources.phi
-        Me.PictureBox13.Location = New System.Drawing.Point(528, 470)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox13.TabIndex = 17
-        Me.PictureBox13.TabStop = False
+        Me.P16.BackgroundImage = CType(resources.GetObject("P16.BackgroundImage"), System.Drawing.Image)
+        Me.P16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.P16.Location = New System.Drawing.Point(528, 470)
+        Me.P16.Name = "P16"
+        Me.P16.Size = New System.Drawing.Size(128, 128)
+        Me.P16.TabIndex = 17
+        Me.P16.TabStop = False
         '
-        'PictureBox14
+        'P14
         '
-        Me.PictureBox14.Image = Global.jogo_da_memoria.My.Resources.Resources.lal
-        Me.PictureBox14.Location = New System.Drawing.Point(204, 470)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox14.TabIndex = 16
-        Me.PictureBox14.TabStop = False
+        Me.P14.BackgroundImage = CType(resources.GetObject("P14.BackgroundImage"), System.Drawing.Image)
+        Me.P14.Location = New System.Drawing.Point(204, 470)
+        Me.P14.Name = "P14"
+        Me.P14.Size = New System.Drawing.Size(128, 128)
+        Me.P14.TabIndex = 16
+        Me.P14.TabStop = False
         '
-        'PictureBox15
+        'P15
         '
-        Me.PictureBox15.Image = Global.jogo_da_memoria.My.Resources.Resources.net
-        Me.PictureBox15.Location = New System.Drawing.Point(366, 470)
-        Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox15.TabIndex = 15
-        Me.PictureBox15.TabStop = False
+        Me.P15.BackgroundImage = CType(resources.GetObject("P15.BackgroundImage"), System.Drawing.Image)
+        Me.P15.Location = New System.Drawing.Point(366, 470)
+        Me.P15.Name = "P15"
+        Me.P15.Size = New System.Drawing.Size(128, 128)
+        Me.P15.TabIndex = 15
+        Me.P15.TabStop = False
         '
-        'PictureBox16
+        'P13
         '
-        Me.PictureBox16.Image = Global.jogo_da_memoria.My.Resources.Resources.lac
-        Me.PictureBox16.Location = New System.Drawing.Point(42, 470)
-        Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox16.TabIndex = 14
-        Me.PictureBox16.TabStop = False
+        Me.P13.BackgroundImage = CType(resources.GetObject("P13.BackgroundImage"), System.Drawing.Image)
+        Me.P13.Location = New System.Drawing.Point(42, 470)
+        Me.P13.Name = "P13"
+        Me.P13.Size = New System.Drawing.Size(128, 128)
+        Me.P13.TabIndex = 14
+        Me.P13.TabStop = False
         '
-        'PictureBox9
+        'P12
         '
-        Me.PictureBox9.Image = Global.jogo_da_memoria.My.Resources.Resources.hus
-        Me.PictureBox9.Location = New System.Drawing.Point(528, 336)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox9.TabIndex = 13
-        Me.PictureBox9.TabStop = False
+        Me.P12.BackgroundImage = CType(resources.GetObject("P12.BackgroundImage"), System.Drawing.Image)
+        Me.P12.Location = New System.Drawing.Point(528, 336)
+        Me.P12.Name = "P12"
+        Me.P12.Size = New System.Drawing.Size(128, 128)
+        Me.P12.TabIndex = 13
+        Me.P12.TabStop = False
         '
-        'PictureBox10
+        'P10
         '
-        Me.PictureBox10.ErrorImage = Nothing
-        Me.PictureBox10.Image = Global.jogo_da_memoria.My.Resources.Resources.cel
-        Me.PictureBox10.Location = New System.Drawing.Point(204, 336)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox10.TabIndex = 12
-        Me.PictureBox10.TabStop = False
+        Me.P10.BackgroundImage = CType(resources.GetObject("P10.BackgroundImage"), System.Drawing.Image)
+        Me.P10.ErrorImage = Nothing
+        Me.P10.Location = New System.Drawing.Point(204, 336)
+        Me.P10.Name = "P10"
+        Me.P10.Size = New System.Drawing.Size(128, 128)
+        Me.P10.TabIndex = 12
+        Me.P10.TabStop = False
         '
-        'PictureBox11
+        'P11
         '
-        Me.PictureBox11.Image = Global.jogo_da_memoria.My.Resources.Resources.gsw
-        Me.PictureBox11.Location = New System.Drawing.Point(366, 336)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox11.TabIndex = 11
-        Me.PictureBox11.TabStop = False
+        Me.P11.BackgroundImage = CType(resources.GetObject("P11.BackgroundImage"), System.Drawing.Image)
+        Me.P11.Location = New System.Drawing.Point(366, 336)
+        Me.P11.Name = "P11"
+        Me.P11.Size = New System.Drawing.Size(128, 128)
+        Me.P11.TabIndex = 11
+        Me.P11.TabStop = False
         '
-        'PictureBox12
+        'P9
         '
-        Me.PictureBox12.Image = Global.jogo_da_memoria.My.Resources.Resources.buc1
-        Me.PictureBox12.Location = New System.Drawing.Point(42, 336)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox12.TabIndex = 10
-        Me.PictureBox12.TabStop = False
+        Me.P9.BackgroundImage = CType(resources.GetObject("P9.BackgroundImage"), System.Drawing.Image)
+        Me.P9.Location = New System.Drawing.Point(42, 336)
+        Me.P9.Name = "P9"
+        Me.P9.Size = New System.Drawing.Size(128, 128)
+        Me.P9.TabIndex = 10
+        Me.P9.TabStop = False
         '
-        'PictureBox2
+        'P8
         '
-        Me.PictureBox2.Image = Global.jogo_da_memoria.My.Resources.Resources.phi
-        Me.PictureBox2.Location = New System.Drawing.Point(528, 202)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox2.TabIndex = 9
-        Me.PictureBox2.TabStop = False
+        Me.P8.BackgroundImage = CType(resources.GetObject("P8.BackgroundImage"), System.Drawing.Image)
+        Me.P8.Location = New System.Drawing.Point(528, 202)
+        Me.P8.Name = "P8"
+        Me.P8.Size = New System.Drawing.Size(128, 128)
+        Me.P8.TabIndex = 9
+        Me.P8.TabStop = False
         '
-        'PictureBox6
+        'P6
         '
-        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
-        Me.PictureBox6.Location = New System.Drawing.Point(204, 202)
-        Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox6.TabIndex = 8
-        Me.PictureBox6.TabStop = False
+        Me.P6.BackgroundImage = CType(resources.GetObject("P6.BackgroundImage"), System.Drawing.Image)
+        Me.P6.Location = New System.Drawing.Point(204, 202)
+        Me.P6.Name = "P6"
+        Me.P6.Size = New System.Drawing.Size(128, 128)
+        Me.P6.TabIndex = 8
+        Me.P6.TabStop = False
         '
-        'PictureBox7
+        'P7
         '
-        Me.PictureBox7.Image = Global.jogo_da_memoria.My.Resources.Resources.net
-        Me.PictureBox7.Location = New System.Drawing.Point(366, 202)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox7.TabIndex = 7
-        Me.PictureBox7.TabStop = False
+        Me.P7.BackgroundImage = CType(resources.GetObject("P7.BackgroundImage"), System.Drawing.Image)
+        Me.P7.Location = New System.Drawing.Point(366, 202)
+        Me.P7.Name = "P7"
+        Me.P7.Size = New System.Drawing.Size(128, 128)
+        Me.P7.TabIndex = 7
+        Me.P7.TabStop = False
         '
-        'PictureBox8
+        'P5
         '
-        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
-        Me.PictureBox8.Location = New System.Drawing.Point(42, 202)
-        Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox8.TabIndex = 6
-        Me.PictureBox8.TabStop = False
+        Me.P5.BackgroundImage = CType(resources.GetObject("P5.BackgroundImage"), System.Drawing.Image)
+        Me.P5.Location = New System.Drawing.Point(42, 202)
+        Me.P5.Name = "P5"
+        Me.P5.Size = New System.Drawing.Size(128, 128)
+        Me.P5.TabIndex = 6
+        Me.P5.TabStop = False
         '
-        'PictureBox5
+        'P4
         '
-        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
-        Me.PictureBox5.Location = New System.Drawing.Point(528, 68)
-        Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox5.TabIndex = 5
-        Me.PictureBox5.TabStop = False
+        Me.P4.BackgroundImage = CType(resources.GetObject("P4.BackgroundImage"), System.Drawing.Image)
+        Me.P4.Location = New System.Drawing.Point(528, 68)
+        Me.P4.Name = "P4"
+        Me.P4.Size = New System.Drawing.Size(128, 128)
+        Me.P4.TabIndex = 5
+        Me.P4.TabStop = False
         '
-        'PictureBox4
+        'P2
         '
-        Me.PictureBox4.BackgroundImage = Global.jogo_da_memoria.My.Resources.Resources.vazio
-        Me.PictureBox4.Image = Global.jogo_da_memoria.My.Resources.Resources.cel
-        Me.PictureBox4.Location = New System.Drawing.Point(204, 68)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox4.TabIndex = 4
-        Me.PictureBox4.TabStop = False
+        Me.P2.BackgroundImage = CType(resources.GetObject("P2.BackgroundImage"), System.Drawing.Image)
+        Me.P2.Location = New System.Drawing.Point(204, 68)
+        Me.P2.Name = "P2"
+        Me.P2.Size = New System.Drawing.Size(128, 128)
+        Me.P2.TabIndex = 4
+        Me.P2.TabStop = False
         '
-        'PictureBox3
+        'P3
         '
-        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
-        Me.PictureBox3.Location = New System.Drawing.Point(366, 68)
-        Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox3.TabIndex = 3
-        Me.PictureBox3.TabStop = False
+        Me.P3.BackgroundImage = CType(resources.GetObject("P3.BackgroundImage"), System.Drawing.Image)
+        Me.P3.Location = New System.Drawing.Point(366, 68)
+        Me.P3.Name = "P3"
+        Me.P3.Size = New System.Drawing.Size(128, 128)
+        Me.P3.TabIndex = 3
+        Me.P3.TabStop = False
         '
-        'PictureBox1
+        'P1
         '
-        Me.PictureBox1.BackColor = System.Drawing.Color.DimGray
-        Me.PictureBox1.BackgroundImage = Global.jogo_da_memoria.My.Resources.Resources.buc1
-        Me.PictureBox1.Image = Global.jogo_da_memoria.My.Resources.Resources.buc1
-        Me.PictureBox1.InitialImage = Nothing
-        Me.PictureBox1.Location = New System.Drawing.Point(42, 68)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(128, 128)
-        Me.PictureBox1.TabIndex = 1
-        Me.PictureBox1.TabStop = False
+        Me.P1.BackColor = System.Drawing.Color.DimGray
+        Me.P1.BackgroundImage = CType(resources.GetObject("P1.BackgroundImage"), System.Drawing.Image)
+        Me.P1.InitialImage = Nothing
+        Me.P1.Location = New System.Drawing.Point(42, 68)
+        Me.P1.Name = "P1"
+        Me.P1.Size = New System.Drawing.Size(128, 128)
+        Me.P1.TabIndex = 1
+        Me.P1.TabStop = False
         '
         'Form1
         '
@@ -238,62 +235,62 @@ Partial Class Form1
         Me.BackgroundImage = Global.jogo_da_memoria.My.Resources.Resources.download1
         Me.ClientSize = New System.Drawing.Size(699, 681)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.PictureBox13)
-        Me.Controls.Add(Me.PictureBox14)
-        Me.Controls.Add(Me.PictureBox15)
-        Me.Controls.Add(Me.PictureBox16)
-        Me.Controls.Add(Me.PictureBox9)
-        Me.Controls.Add(Me.PictureBox10)
-        Me.Controls.Add(Me.PictureBox11)
-        Me.Controls.Add(Me.PictureBox12)
-        Me.Controls.Add(Me.PictureBox2)
-        Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.PictureBox7)
-        Me.Controls.Add(Me.PictureBox8)
-        Me.Controls.Add(Me.PictureBox5)
-        Me.Controls.Add(Me.PictureBox4)
-        Me.Controls.Add(Me.PictureBox3)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.P16)
+        Me.Controls.Add(Me.P14)
+        Me.Controls.Add(Me.P15)
+        Me.Controls.Add(Me.P13)
+        Me.Controls.Add(Me.P12)
+        Me.Controls.Add(Me.P10)
+        Me.Controls.Add(Me.P11)
+        Me.Controls.Add(Me.P9)
+        Me.Controls.Add(Me.P8)
+        Me.Controls.Add(Me.P6)
+        Me.Controls.Add(Me.P7)
+        Me.Controls.Add(Me.P5)
+        Me.Controls.Add(Me.P4)
+        Me.Controls.Add(Me.P2)
+        Me.Controls.Add(Me.P3)
+        Me.Controls.Add(Me.P1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
         Me.Text = "Form1"
-        CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox12, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P16, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P14, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P15, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P13, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P12, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P11, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P9, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P8, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.P1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents Label1 As Label
-    Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents PictureBox3 As PictureBox
-    Friend WithEvents PictureBox4 As PictureBox
-    Friend WithEvents PictureBox5 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents PictureBox6 As PictureBox
-    Friend WithEvents PictureBox7 As PictureBox
-    Friend WithEvents PictureBox8 As PictureBox
-    Friend WithEvents PictureBox9 As PictureBox
-    Friend WithEvents PictureBox10 As PictureBox
-    Friend WithEvents PictureBox11 As PictureBox
-    Friend WithEvents PictureBox12 As PictureBox
-    Friend WithEvents PictureBox13 As PictureBox
-    Friend WithEvents PictureBox14 As PictureBox
-    Friend WithEvents PictureBox15 As PictureBox
-    Friend WithEvents PictureBox16 As PictureBox
+    Friend WithEvents P1 As PictureBox
+    Friend WithEvents P3 As PictureBox
+    Friend WithEvents P2 As PictureBox
+    Friend WithEvents P4 As PictureBox
+    Friend WithEvents P8 As PictureBox
+    Friend WithEvents P6 As PictureBox
+    Friend WithEvents P7 As PictureBox
+    Friend WithEvents P5 As PictureBox
+    Friend WithEvents P12 As PictureBox
+    Friend WithEvents P10 As PictureBox
+    Friend WithEvents P11 As PictureBox
+    Friend WithEvents P9 As PictureBox
+    Friend WithEvents P16 As PictureBox
+    Friend WithEvents P14 As PictureBox
+    Friend WithEvents P15 As PictureBox
+    Friend WithEvents P13 As PictureBox
     Friend WithEvents Button1 As Button
 End Class
