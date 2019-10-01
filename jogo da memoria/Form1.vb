@@ -22,4 +22,8 @@
                 Return My.Resources.Resources.phi
         End Select
     End Function
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

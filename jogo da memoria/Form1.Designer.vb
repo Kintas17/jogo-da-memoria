@@ -235,6 +235,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
+        Me.BackgroundImage = Global.jogo_da_memoria.My.Resources.Resources.download1
         Me.ClientSize = New System.Drawing.Size(699, 681)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox13)

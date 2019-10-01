@@ -147,10 +147,10 @@
     <None Include="Resources\lal.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download.png" />
+    <None Include="Resources\vazio.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\vazio.png" />
+    <None Include="Resources\download.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
