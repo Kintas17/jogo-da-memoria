@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "jogo da memoria", "jogo da memoria\jogo da memoria.vbproj", "{EB28B2DA-616D-4175-98E1-D7FEDAD8B575}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB28B2DA-616D-4175-98E1-D7FEDAD8B575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB28B2DA-616D-4175-98E1-D7FEDAD8B575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB28B2DA-616D-4175-98E1-D7FEDAD8B575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB28B2DA-616D-4175-98E1-D7FEDAD8B575}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0546A839-6783-4BC3-BAA3-5CF9E4BDDC53}
+	EndGlobalSection
+EndGlobal
